@@ -1,0 +1,14 @@
+# FastAPI Web Application Requirements
+# Extends the original requirements.txt with web app dependencies
+
+# Include all original dependencies
+-r requirements.txt
+
+# FastAPI and web server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Additional utilities for web app
+jinja2==3.1.2
+aiofiles==23.2.1
